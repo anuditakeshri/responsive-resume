@@ -30,7 +30,7 @@ h6
     display: inline;
 }
 #header .slider{
-    height: 40px;
+    height: 50px;
    /* border: 2px solid red; */
    overflow: hidden;
 }
@@ -43,17 +43,14 @@ h6
  @keyframes desc
  {
      0%
-     30%
      {
          transform:translateY(0px);
      }
-     35%
-     65%
+     30%
      {
         transform:translateY(-30px);
      }
     70%
-    95%
     {
         transform:translateY(-60px);
     }
